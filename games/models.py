@@ -15,4 +15,11 @@ class MatchesData(models.Model):
     def __str__(self):
         return self.homeTeamName
 
+    class Meta:
+        db_table = "matchesdata"
+
+
+
+
+
 

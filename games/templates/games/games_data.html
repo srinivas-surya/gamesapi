@@ -55,12 +55,12 @@ label {
         {% for i in games_data %}
             <tr>
 
-                <td>{{i.0}}</td>
-                <td>{{i.1}}</td>
-                <td>{{i.2}}</td>
-                <td>{{i.3}}</td>
-                <td>{{i.4}}</td>
-                <td>{{i.5}}</td>
+                <td>{{i.matchDate}}</td>
+                <td>{{i.homeTeamName}}</td>
+                <td>{{i.homeTeamScore}}</td>
+                <td>{{i.awayTeamName}}</td>
+                <td>{{i.awayTeamScore}}</td>
+                <td>{{i.status}}</td>
             </tr>
         {% endfor %}
         </tbody>
